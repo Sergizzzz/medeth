@@ -10,6 +10,7 @@ import AddRecordModal from './AddRecordModal'
 import CloudUploadRoundedIcon from '@mui/icons-material/CloudUploadRounded'
 import ipfs from '../../ipfs'
 import Record from '../../components/Record'
+import Card from '../../components/Card'
 
 const Doctor = () => {
   const {
@@ -174,6 +175,9 @@ const Doctor = () => {
                         <PersonAddAlt1RoundedIcon style={{ color: 'white' }} />
                       </CustomButton>
                     </Box>
+                  </Box>
+                  <Box display='flex' mt={6} justifyContent='center' alignItems='center'>
+                    <Card image={'https://www.eleconomista.com.mx/__export/1650910628068/sites/eleconomista/img/2022/04/25/donald_trump_foto_reuters.png_423682103.png'} name={'Donald Trump'} role={'Doctor'} id={'49286799Y'} eth_address={accounts[0]} home_address='c/Avenida Diagonal nº7 1º1ª' join_date='23/11/2021'/>
                   </Box>
                 </>
               )}
